@@ -1,12 +1,12 @@
 main {
-    max-width: 840;
+    max-width: 840px;
 }
 
 aside {
     width: 20rem;
     margin: 1rem;
     border: 1px solid rgb(0 0 0/.02);
-    padding: 1rem
+    padding: 1rem;
     background-color: #eee;
     color: #333;
     text-align: center;
@@ -51,5 +51,6 @@ footer {
 
 
 p {
-    padding: 0px
+    padding: 0;
 }
+
