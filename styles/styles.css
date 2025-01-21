@@ -1,9 +1,13 @@
+:root {
+    --nav-background: darkblue;
+}
+
 main {
     max-width: 840px;
 }
 
 aside {
-    width: 20rem;
+    width: 29rem;
     margin: 1rem;
     border: 1px solid rgb(0 0 0/.02);
     padding: 1rem;
@@ -13,7 +17,7 @@ aside {
 }
 
 nav{
-    background-color: darkblue;
+    background-color: var(--nav-background);
     padding: 10px;
 }
 
@@ -26,7 +30,7 @@ nav a {
 
 
 h1 {
-    color: darkblue;
+    color: var(--nav-background);
 }
 
 
