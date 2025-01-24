@@ -1,11 +1,65 @@
 :root{
-    --primary: #627589;
-    --secondary:#899FA4;
-    --accent1: #426956;
-    --accent2: #435B6B;
-    --other: #7A908A;
+    --color1: #9dc19e;
+    --color2: #72b16d;
+    --color3: #8cb2b5cc;
+    --color4: #0B2442;
+    --page2: #CCD8E0;
+    --color: #4B8547
 }
+
+html{
+    background-color: var(--page2)}
+
+
 
 h1{
     font-family: "Contrail One";
+    color: var(--color)}
+
+h2 {
+    font-family: "Contrail One";
+    color: var(--color)}
+
+p {
+    font-family: "Kantumruy Pro";
+    color: var(--color4);}
+
+footer a {
+    text-decoration: none;}
+
+#hero_img {
+    display: block;
+    width: 100%;
+    height: auto;}
+
+.hero h1 {
+    font-size: 55px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 275px;
+    text-shadow:
+    black 0 1px,
+    black 1px 0,
+    black -1px 0,
+    black 0 -1px;
 }
+
+.hero article {
+    width: 50%;
+    background-color: var(--color3);
+    position: absolute;
+    top: 400px;
+    right: 25%;
+    text-align: center;
+    padding: 2px;}
+
+.hero article img {
+    position: relative;
+    bottom: 50%;
+    width: 150px;
+    height: auto;
+    float: right;
+
+    border: 2px;
+    margin: 10px;}
