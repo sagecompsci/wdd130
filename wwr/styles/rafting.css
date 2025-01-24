@@ -27,6 +27,10 @@ p {
 footer a {
     text-decoration: none;}
 
+div .hero {
+    position: relative;
+}
+
 #hero_img {
     display: block;
     width: 100%;
