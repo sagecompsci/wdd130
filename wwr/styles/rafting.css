@@ -52,12 +52,12 @@ header img {
     justify-self: end;
     height: 110px;
     margin: 20px;
-    grid-area: 1 / 2 / 2 / 3;
+    grid-column: 1 / 2;
 
 }
 
 ul {
-    grid-area: 1 / 1 / 2 / 2;
+    grid-column: 2 / 3;
     display: flex;
     list-style-type: none;
 }
