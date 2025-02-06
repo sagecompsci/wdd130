@@ -232,6 +232,10 @@ footer a {
     text-decoration: none;
 }
 
+.contact_h1 {
+    text-align: center;
+    margin: 1em;
+}
 
 .info {
     display: grid;
