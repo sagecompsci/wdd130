@@ -38,7 +38,7 @@ h3, legend, button {
     font-size: 19px;
 }
 
-p, label{
+p, label, figcaption{
     font-family: "Kantumruy Pro";
     color: var(--color_text);
     font-size: 16px;
@@ -48,6 +48,9 @@ html{
     background-color: var(--page)
 }
 
+figcaption {
+    text-align: center;
+}
 .img1 {
     padding: 10px;
     border: 3px solid var(--color_accent);
@@ -312,6 +315,7 @@ form label, form p {
     align-self: center;
     margin: 10px;
 }
+
 
 textarea {
     margin: 15px 5px;
