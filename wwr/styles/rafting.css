@@ -5,7 +5,7 @@
     --color_h2: #213A1F;
 
     --color_accent: #72b16d;
-    --color_hero: #8cb2b5cc;
+    --color_hero: #8cb2b5dd;
     --color_row: #9dc19e;
 
 
@@ -51,6 +51,7 @@ html{
 figcaption {
     text-align: center;
 }
+
 .img1 {
     padding: 10px;
     border: 3px solid var(--color_accent);
@@ -97,9 +98,10 @@ li a {
 
 .hero {
     position: relative;
+    margin: var(--margin_header);
 }
 
-#hero_img {
+.hero_img {
     margin: var(--margin_header);
     display: block;
     width: 100%;
@@ -129,9 +131,6 @@ li a {
     padding: 7px;
 }
 
-
-
-
 .hero article img {
     position: relative;
     bottom: 0;
@@ -144,6 +143,110 @@ li a {
 
 
 
+
+form {
+    display: grid;
+    width: 60%;
+    margin: 30px auto 20px;
+
+}
+
+.form_home {
+    grid-template-columns: 4fr 4fr 1fr;
+}
+
+
+form h2{
+    text-align: center;
+    margin: 10px;
+    grid-column: 1 / -1;
+}
+
+fieldset {
+    display: grid;
+    padding: 10px;
+    margin: 10px;
+    grid-template-columns: 1fr 2fr;
+    border: 2px solid var(--color_accent);
+}
+
+input {
+    margin: 5px;
+    padding: 10px;
+}
+
+.form_home p {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+.form_contact label, form p {
+    text-align: right;
+    align-self: center;
+    margin: 10px;
+}
+
+textarea {
+    margin: 15px 5px;
+    height: 100px;
+}
+
+.check {
+    height: 40px;
+    width: auto;
+    align-self: center;
+    justify-self: start;
+}
+
+.form_contact button {
+    grid-column: span 2;
+    background-color: var(--color_row);
+    height: 3.5em;
+    margin: 5px;
+}
+
+.form_home button{
+    margin: 5px;
+    background-color: var(--color_row);
+}
+
+button:hover {
+    font-weight: bold;
+    background-color: var(--color_accent);
+}
+
+
+.link {
+    padding: 10px;
+    background-color: var(--color_row);
+    text-align: center;
+    margin: 40px 0;
+}
+
+.link a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.home_info {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 80%;
+    margin: auto;
+    grid-gap: 10px;
+    box-sizing: border-box;
+    text-indent: 1.3em;
+}
+
+.home_info img {
+    height: 175px;
+    place-self: center;
+}
+
+
+
+
+
 .history {
     margin: var(--margin_header);
     display: grid;
@@ -153,7 +256,6 @@ li a {
 
 .history h2 {
     grid-column: 1 / 4;
-
 }
 
 .history img {
@@ -187,7 +289,6 @@ li a {
 
 .adventure h2 {
     grid-column: 1 / 6;
-
 }
 
 .adventure figure {
@@ -285,58 +386,3 @@ iframe {
     height: 200px;
 }
 
-
-form {
-    display: grid;
-    width: 60%;
-    margin: 30px auto 20px;
-
-}
-
-form h2{
-    text-align: center;
-    margin: 10px;
-}
-fieldset {
-    display: grid;
-    padding: 10px;
-    margin: 10px;
-    grid-template-columns: 1fr 2fr;
-    border: 2px solid var(--color_accent);
-}
-
-input {
-    margin: 5px;
-    padding: 10px;
-}
-
-form label, form p {
-    text-align: right;
-    align-self: center;
-    margin: 10px;
-}
-
-
-textarea {
-    margin: 15px 5px;
-    height: 100px;
-}
-
-
-.check {
-    height: 40px;
-    width: auto;
-    align-self: center;
-    justify-self: start;
-}
-
-button {
-    grid-column: span 2;
-    background-color: var(--color_row);
-    height: 3.5em;
-    margin: 5px;
-}
-button:hover {
-    font-weight: bold;
-    background-color: var(--color_accent);
-}
