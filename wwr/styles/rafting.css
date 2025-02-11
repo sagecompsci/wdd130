@@ -17,17 +17,26 @@
     padding: 0;
 }
 
+h1, h2, h3,legend, button, th {
+    font-family: "contrail one";
+}
+
+p, label, figcaption, td {
+    font-family: "kantumruy pro";
+}
 
 h1{
-    font-family: "Contrail One";
-    color: var(--color_h1);
+    color: var(--color_row);
     font-size: 55px;
 }
 
-
-h2, h3, legend, button{
-    font-family: "Contrail One";
+h2, h3, legend, button {
     color: var(--color_h2);
+}
+
+p, label, figcaption, td{
+    color: var(--color_text);
+    font-size: 16px;
 }
 
 h2 {
@@ -38,11 +47,9 @@ h3, legend, button {
     font-size: 19px;
 }
 
-p, label, figcaption{
-    font-family: "Kantumruy Pro";
-    color: var(--color_text);
-    font-size: 16px;
-}
+
+
+
 
 html{
     background-color: var(--page)
@@ -384,4 +391,31 @@ iframe {
 .images img {
     width: auto;
     height: 200px;
+}
+
+table {
+    margin: auto;
+    border: 2px solid var(--color_row);
+    text-align: center;
+    font-size: 1.1em;
+}
+
+thead {
+    background-color: var(--color_text);
+    color: var(--color_accent);
+    font-size: 1.3em;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: var(--color_row);
+}
+
+th, td {
+    padding: .7em;
+    border: 3px solid var(--color_hero);
+    font-weight: bold;
+}
+
+caption {
+    caption-side: bottom;
 }
