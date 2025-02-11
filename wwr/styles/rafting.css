@@ -162,6 +162,9 @@ form {
     grid-template-columns: 4fr 4fr 1fr;
 }
 
+.form_home label {
+}
+
 
 form h2{
     text-align: center;
