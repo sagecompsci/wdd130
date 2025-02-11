@@ -351,6 +351,7 @@ footer a {
 .contact_h1 {
     text-align: center;
     margin: 1em;
+    color: var(--color_h1)
 }
 
 .info {
