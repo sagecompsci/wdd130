@@ -163,6 +163,8 @@ form {
 }
 
 .form_home label {
+    position: absolute;
+    left: -100000000px;
 }
 
 
